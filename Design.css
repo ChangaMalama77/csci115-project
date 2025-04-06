@@ -36,7 +36,7 @@ header {
     color: #ffd700;
     text-align: center;
     font-size: 70px
-    width: auto;
+    
 }
 
 section {
@@ -44,12 +44,14 @@ section {
     flex-direction: column;
     border: 2px solid #ffd700;
     width: auto;
+    max-width: 100%;
 
 }
 
 nav {
     border: solid #ffd700;
     padding: 5px;
+    max-width: 100%;
     width: auto;
 
 }
@@ -71,5 +73,6 @@ a {
     border: 2px solid #ffd700;
     padding: 5px;
     background-color: #000;
+
    
 }
